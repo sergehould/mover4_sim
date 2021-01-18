@@ -1,0 +1,3 @@
+C:\serge\Vanier\courses\247-607-VA_Computerized Systems Optimization\projects\visual_studio\multithread_mover4\pdcurses_test\Debug\pdcurses_test.vcxprojAssemblyReference.cache
+C:\serge\Vanier\courses\247-607-VA_Computerized Systems Optimization\projects\visual_studio\multithread_mover4_v6\pdcurses_test\Debug\pdcurses_test.vcxprojAssemblyReference.cache
+C:\serge\Vanier\courses\247-607-VA_Computerized Systems Optimization\projects\visual_studio\multithread_mover4_v6_stu\pdcurses_test\Debug\pdcurses_test.vcxprojAssemblyReference.cache

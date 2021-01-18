@@ -1,0 +1,17 @@
+#!/bin/bash
+# This bash file is meant to compile and link all the source files
+# You must specify all c files to be compiled
+# It erases the previous executable file- exec- and if compiled successfully
+# it creates an new exec.
+OUT_FILE=exec
+rm $OUT_FILE
+echo "Compiling $OUT_FILE"
+# Modify the gcc line to add or remove c source files:
+# i.e. gcc -pthread -lncurses mover4.c task_kbrd.c task_display.c ../task_controller.c ../../can-utils/lib.c -lm -o $OUT_FILE
+gcc -pthread -lncurses ../task_controller.c ../can.c ../../can-utils/lib.c -lm -o $OUT_FILE
+if [ $? == 1 ]; then
+ exit 2
+fi
+
+echo "Running $OUT_FILE"
+./$OUT_FILE
